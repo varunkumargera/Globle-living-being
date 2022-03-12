@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>right frame</title>
+<style>
+h1{color:black; font-family: verdana; BACKGROUND:rgb(71,103,171);font-size:300%;text-align:center;}
+p{color:rgba(52,76,149,255); font-family: courier; font-size:40px;border: 3px solid black;font-style:bold;}
+body
+{background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
+</style>
+</head>  
+<body background="right frame bg2.jpg"> 
+<marquee width="100%" height="10%" direction="left" background-color="rgba(228,208,157,255)">Call us for instant assistance and follow us on instagram </marquee>
+	<h1>Globle living Being</h1>
+	<p>Globle living being is a association which forwards its hands for all 
+	kind of help of all stray animals who are in need such as fd , 
+	shelter , first aid and respect . As we believe that all creatures are made
+	by God and should be treated well</p>
+<center><img src="right image1.png" border="8" height="300"></center>
+
+</body>
+<html>

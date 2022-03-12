@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Gallery</title>
+<style>
+h1{color:black; font-family: verdana;center; BACKGROUND:white;font-size:300%;}
+li{color:black; font-family: courier; font-size:40px;}
+a{color:black; font-size:20px;}
+</style>
+<body background="our services bg.jpg">
+<a href="website.html" target="top">HOME</a><br><br>
+<center><h1>OUR SERVICES</h1></center>
+<ul>
+<li>To provide FIRST AID to stray animals in need. </li>
+<li>To provide FOOD to stray animals in need.</li>
+<li>To provide SHELTER to stray animals in need.</li>
+<li>To spread awarness among people.</li>
+<li>To collect funds for stray animals having any medical emergency </li>
+<li>To spread the HUMANITY among people. </li>
+</ul>
+</body>
+</head>
+</html>

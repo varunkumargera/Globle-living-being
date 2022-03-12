@@ -1,0 +1,32 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body
+{
+	background-image: url(right frame bg2);
+	background-size:cover;
+	background-position:center;
+	}
+
+ul{text-align: center;display:inline-flex;list-style:none}
+
+ul li{width: 120px;margin: 15px;padding: 15px}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+.active, ul li:hover
+{
+	background: blue;
+	border-radius: 3px;
+}

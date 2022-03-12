@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Register for help
+</title>
+<script type="text/javascript">
+function validate()
+{
+	var uname=document.getElementById("uname");
+	var password=document.getElementById("pass");
+	
+	if(uname.value.trim()=="")
+	{
+		alert("No blank values are allowed");
+		uname.style.border="solid 3px red";
+		document.getElementById("lbluser").style.visibility="visible";
+		return false;
+	}
+	else if(password.value.trim()=="")
+	{
+		alert("No blank values are allowed");
+		return false;
+	}
+	else if(password.value.trim().length<5)
+	{
+		alert("Password is too short");
+		return false;
+	}
+	else{
+		return true;
+	}
+}
+
+</script>
+<style>
+a{color:black; font-size:20px;}
+</style>
+<body background="register for help bg.jpg">
+<!-- <a href="website.html" target="top">HOME</a><br><br>-->
+<h1> <center><u>FILL THE FORM TO REGISTER FOR HELP</u></center></h1>
+<center><form onsubmit="return validate() action="submited.html">
+Name: <input id="uname" placeholder="Username" type="text/"><br><br>
+<label id="lbluser" style="color:red;visibility:hidden;">Invalid</label>
+Password: <input id="pass" placeholder="Password" type="password/"><br><br>
+Address: <input id="uadd" placeholder="address" type="address/"><br><br>
+Select: <input type="radio" name="gender">Dog
+	<input type="radio" name="gender">Cat
+	<input type="radio" name="gender">Cattle
+	<input type="radio" name="gender">Bird
+	<input type="radio" name="gender">Other
+<button onclick="validate()" type="submit">Submit</button>
+</form></center>
+</body>
+</head>
+</html>
