@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Gallery</title>
+<style type="text/css">
+#slider{
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 15s slider infinite;
+}
+#slider figure img {
+	#width:20%;
+	float:left;
+}
+@keyframes slider img {
+	0%{
+		left: 0;
+	}
+	20% {
+		left:0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%(
+		left: -100%;
+	}
+	50%(
+		left: -200%;
+	}
+	70%(
+		left: -200%;
+	}
+	75%(
+		left: -300%;
+	}
+	95%(
+		left: -300%;
+	}
+	
+</style>
+</head>
+<body background="register for help bg.jpg">
+<a href="website.html" target="top">HOME</a><br><br>
+
+
+<div id="slider">
+		<figure>
+			<img src="G:\a website\gallery1.jpg">
+			<img src="G:\a website\gallery2.png">
+			<img src="G:\a website\gallery3.jpg">
+			<img src="G:\a website\gallery4.jpg">
+			<img src="G:\a website\gallery5.jpg">
+			<img src="G:\a website\gallery6.jpg">
+		</figure>
+</div>	
+</body>
+</html>

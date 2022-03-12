@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a{font-size:10; font-color:black
+}
+img {
+  border-radius: 50%;
+  border: 8px solid #ddd; 
+  align:center; 
+  width:300px
+}
+h1{ background-color: rgba(229,146,202,0.8);
+  color: white;
+  text-align:center;
+}
+body
+{background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+</style>
+</head>
+<body background="register for help bg.jpg">
+<a href="website.html" target="top">HOME</a><br><br>
+<h1>Our Gallery</h1>
+
+			<center><img src="gallery1.jpg"><br><br></center>
+			<center><img src="gallery2.png"><br><br></center>
+			<center><img src="gallery3.jpg"><br><br></center>
+			<center><img src="gallery4.jpg"><br><br></center>
+			<center><img src="gallery5.jpg"><br><br></center>
+			<center><img src="gallery6.jpg"><br><br></center>
+
+</body>
+</html>
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Our Contact</title>
+<style>
+a{color:blue; font-size:20px;}
+</style>
+<body background="E:\a website\contact bg..jpg">
+<script type=text/javascript>
+alert("Please follow us on instagram")
+</script>
+<!-- <a href="website.html" target="top">HOME</a><br><br>-->
+<marquee width="100%" height="10%" direction="left" bgcolor="rgba(234,229,197,255)">Call us for instant assistance and follow us on instagram </marquee>
+<center><font size="50" color="red"><b><u>Our Contact</u></b></font></center>
+<center><table border="5" bordercolor="black" width="600" height="400">
+	<tr>
+		<th colspan="5"><font size="20"><u>Contact for any help.</u></font></th>
+	
+	
+	</tr>
+	<tr>
+		<th colspan="6"><font size="20">Phone Numbers: 9971452589 , 9971806944</font></th>
+		
+	</tr>
+	<tr>
+		<th colspan="5"><font size="20"><u>Social Media</u><font></th>
+		
+	</tr>
+	<tr>
+		<th colspan="5"><img src="our services insta logo.png" height="30"> <font size="28"> Instagram</font> <br> <a href="https://instagram.com/globle_living_being?utm_medium=copy_link" target="blank">@globlelivingbeing</a</th>
+		
+	</tr>
+	<tr>
+		<th colspan="5"><img src="our services gmail ligo.png"  height="30"><font size="24"> Gmail</font> <br> <a href="https://mail.google.com/mail/u/0/x/y10f8oh4foz-/?view&f=1" target="blank">globlelivingbeing@gmil.com</a</th>
+		
+	</tr>
+</table></center>
+</body>
+</head>
+</html>

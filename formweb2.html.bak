@@ -1,0 +1,46 @@
+
+<html>
+<head>
+<script type="text/javascript">
+function validate()
+{
+	var uname=document.getElementById("uname");
+	var password=document.getElementById("pass");
+	
+	if(uname.value.trim()=="")
+	{
+		alert("No blank values are allowed");
+		return false;
+	}
+	else if(password.value.trim()=="")
+	{
+		alert("No blank values are allowed");
+		return false;
+	}
+	else if(password.value.trim().length<5)
+	{
+		alert("Password is too short");
+		return false;
+	}
+	else{
+		return true;
+	}
+}
+
+</script>
+</head>
+<body>
+<form onsubmit="return validate() action="">
+<input id="uname" placeholder="Username" type="text/"><br><br>
+<input id="pass" placeholder="Password" type="password/">
+<input id="uname" placeholder="address" type="address/">
+<input type="radio" name="gender">Dog
+	<input type="radio" name="gender">Cat
+	<input type="radio" name="gender">Cattle
+	<input type="radio" name="gender">Bird
+	<input type="radio" name="gender">Other
+<button onclick="validate()" type="submit">Submit</button>
+</form>
+
+</body>
+</html>
