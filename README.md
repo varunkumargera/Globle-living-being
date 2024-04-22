@@ -1,2 +1,2 @@
 # Globle-living-being
-This is my first project based on animal welfare and humanity
+This is my front end web project based on animal welfare and humanity, it is a website which aims to help needy animals.
